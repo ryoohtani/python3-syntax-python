@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+
+  python3:
+    build: ./backend/pyfile
+    container_name: "stady-python"
+    ports:
+      - "8010:8010"
+    volumes:
+      - .:/src
+    tty: true
