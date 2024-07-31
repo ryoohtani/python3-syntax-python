@@ -5,7 +5,7 @@ services:
     build: ./backend/pyfile
     container_name: "stady-python"
     ports:
-      - "8010:8010"
+      - "8800:8800"
     volumes:
       - .:/src
     tty: true
